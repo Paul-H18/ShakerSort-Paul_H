@@ -4,6 +4,11 @@ import java.util.Random;
 
 public class ArrayOperations {
 
+
+    /**
+     * Gibt ein Array aus
+     * @param arr Das auszugebende Array
+     */
     public static void printArray(int[] arr) {
         for(int i = 0; i<= arr.length - 1; i++) {
             System.out.print(arr[i] + "; ");
@@ -12,6 +17,11 @@ public class ArrayOperations {
     }
 
 
+    /**
+     * Befuellt ein Array komplett mit Zufalsszahlen
+     * @param arr Das zu befuellende Array
+     * @param max Maximalhoehe der Zufallswerte
+     */
     public static void randArray(int[] arr, int max) {
         Random rand = new Random();
 
@@ -20,6 +30,12 @@ public class ArrayOperations {
         }
     }
 
+    /**
+     * Kopiert ein Array in zwei andere Arrays
+     * @param startArr Das Array, das kopiert werden soll
+     * @param arr0 Das zu befuellende Array 1
+     * @param arr1 Das zu befuellende Array 2
+     */
     public static void copyArrays(int[]startArr, int[] arr0, int[] arr1) {
         int x = startArr.length;
 

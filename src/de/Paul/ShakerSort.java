@@ -3,7 +3,7 @@ package de.Paul;
 public class ShakerSort {
 
     /**
-     * Sortiert das übergebene Arrayv.
+     * Sortiert das uebergebene Arrayv.
      * @param arr Das zu sortierende Array
      */
     public static void sort(int[] arr) {
